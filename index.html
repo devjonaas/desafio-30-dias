@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desafio 30 Dias para Sair do Aperto</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container">
+    <span class="tag">📌 DESAFIO DE 30 DIAS</span>
+    <h1>Seu salário acaba rápido demais? Descubra para onde seu dinheiro está indo em <span>30 dias</span>.</h1>
+    <p class="sub">Um guia simples e prático para organizar suas contas, cortar gastos invisíveis, controlar dívidas e começar o próximo mês com mais clareza — mesmo ganhando pouco.</p>
+
+    <div class="mockup mockup-3d">
+      <svg viewBox="0 0 280 340" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="capaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#133a63"/>
+            <stop offset="100%" stop-color="#0a2342"/>
+          </linearGradient>
+          <linearGradient id="lombada" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#06182e"/>
+            <stop offset="100%" stop-color="#0a2342"/>
+          </linearGradient>
+          <filter id="sombraCapa" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity="0.35"/>
+          </filter>
+        </defs>
+
+        <!-- lombada (efeito 3D) -->
+        <polygon points="28,24 28,316 14,308 14,32" fill="url(#lombada)"/>
+
+        <!-- capa principal -->
+        <g filter="url(#sombraCapa)">
+          <rect x="28" y="20" width="220" height="300" rx="10" fill="url(#capaGrad)"/>
+          <rect x="28" y="20" width="220" height="300" rx="10" fill="none" stroke="#4fd58b" stroke-width="2"/>
+
+          <!-- selo/tag -->
+          <rect x="46" y="40" width="110" height="22" rx="11" fill="#1aa260"/>
+          <text x="101" y="55" font-size="10" fill="#fff" text-anchor="middle" font-family="Arial" font-weight="bold">E-BOOK DIGITAL</text>
+
+          <!-- título -->
+          <text x="138" y="105" font-size="22" fill="#fff" text-anchor="middle" font-family="Arial" font-weight="bold">DESAFIO</text>
+          <text x="138" y="132" font-size="30" fill="#4fd58b" text-anchor="middle" font-family="Arial" font-weight="bold">30 DIAS</text>
+          <text x="138" y="155" font-size="13" fill="#cbd8ea" text-anchor="middle" font-family="Arial">para Sair do Aperto</text>
+
+          <!-- linha divisória -->
+          <line x1="56" y1="172" x2="220" y2="172" stroke="#2a4d72" stroke-width="1.5"/>
+
+          <!-- ícone calendário -->
+          <rect x="56" y="190" width="42" height="38" rx="5" fill="#0f2a4a" stroke="#4fd58b" stroke-width="1.5"/>
+          <rect x="56" y="190" width="42" height="11" rx="5" fill="#1aa260"/>
+          <line x1="64" y1="186" x2="64" y2="196" stroke="#4fd58b" stroke-width="2"/>
+          <line x1="90" y1="186" x2="90" y2="196" stroke="#4fd58b" stroke-width="2"/>
+          <text x="77" y="217" font-size="11" fill="#fff" text-anchor="middle" font-family="Arial" font-weight="bold">30</text>
+
+          <!-- ícone cifrão -->
+          <circle cx="138" cy="209" r="21" fill="#4fd58b"/>
+          <text x="138" y="216" font-size="18" fill="#0a2342" text-anchor="middle" font-family="Arial" font-weight="bold">R$</text>
+
+          <!-- ícone gráfico crescente -->
+          <rect x="178" y="212" width="9" height="16" fill="#1aa260"/>
+          <rect x="191" y="204" width="9" height="24" fill="#1aa260"/>
+          <rect x="204" y="194" width="9" height="34" fill="#4fd58b"/>
+
+          <!-- rodapé da capa -->
+          <text x="138" y="300" font-size="10" fill="#9fb3cc" text-anchor="middle" font-family="Arial">ORGANIZAÇÃO · CLAREZA · CONTROLE</text>
+        </g>
+      </svg>
+    </div>
+
+    <div class="cta-wrap">
+      <!-- TROCAR AQUI: link do checkout principal da Cakto -->
+      <a href="#checkout-cakto" class="btn-cta">Quero sair do aperto agora
+        <small>Acesso imediato por apenas R$ 27,00</small>
+      </a>
+    </div>
+    <p class="mini-trust">🔒 Pagamento seguro · 📲 Acesso direto no celular · ✅ Garantia de 7 dias</p>
+  </div>
+</header>
+
+<!-- DOR -->
+<section class="dor">
+  <div class="container">
+    <h2 class="section-title">Isso já aconteceu com você?</h2>
+    <p class="section-sub">Se você se identifica com alguma frase abaixo, esse desafio foi feito pra você.</p>
+    <div class="dor-list">
+      <div class="dor-item"><span class="emoji">😩</span> O salário cai e em poucos dias já não sobra nada.</div>
+      <div class="dor-item"><span class="emoji">💳</span> O cartão de crédito sempre estoura no fim do mês.</div>
+      <div class="dor-item"><span class="emoji">📉</span> Você não sabe exatamente para onde o dinheiro vai.</div>
+      <div class="dor-item"><span class="emoji">😰</span> As dívidas parecem que nunca acabam, só aumentam.</div>
+      <div class="dor-item"><span class="emoji">🙄</span> Sente vergonha de falar sobre dinheiro com a família.</div>
+      <div class="dor-item"><span class="emoji">🌀</span> Já tentou se organizar, mas nada parece funcionar.</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROMESSA -->
+<section class="promessa">
+  <div class="container">
+    <h2 class="section-title">Não é sobre ganhar mais. É sobre organizar o que você já tem.</h2>
+    <div class="box">
+      <h3>O Desafio 30 Dias para Sair do Aperto</h3>
+      <p>Um método simples, dividido em passos diários, para você entender para onde vai seu dinheiro, organizar suas dívidas com mais clareza e menos estresse e finalmente sentir no controle das suas finanças — mesmo ganhando pouco.</p>
+    </div>
+    <div class="passos">
+      <div class="passo">
+        <div class="num">1</div>
+        <strong>Diagnóstico</strong>
+        <p>Entenda exatamente como está sua vida financeira hoje, sem julgamento.</p>
+      </div>
+      <div class="passo">
+        <div class="num">2</div>
+        <strong>Organização</strong>
+        <p>Aprenda a controlar gastos e dívidas com passos simples do dia a dia.</p>
+      </div>
+      <div class="passo">
+        <div class="num">3</div>
+        <strong>Controle</strong>
+        <p>Construa o hábito de cuidar do seu dinheiro e ganhar tranquilidade.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA O DESAFIO -->
+<section class="como-funciona">
+  <div class="container">
+    <h2 class="section-title">Como funciona o desafio?</h2>
+    <p class="section-sub">Seis passos simples para sair do aperto sem complicação.</p>
+    <div class="funciona-grid">
+      <div class="funciona-card">
+        <div class="num">1</div>
+        <strong>Baixe o e-book</strong>
+        <p>Tenha acesso imediato ao material completo no seu celular ou computador.</p>
+      </div>
+      <div class="funciona-card">
+        <div class="num">2</div>
+        <strong>Faça seu diagnóstico financeiro</strong>
+        <p>Entenda exatamente como está sua situação hoje, sem julgamento.</p>
+      </div>
+      <div class="funciona-card">
+        <div class="num">3</div>
+        <strong>Identifique gastos invisíveis</strong>
+        <p>Descubra para onde seu dinheiro está realmente indo todo mês.</p>
+      </div>
+      <div class="funciona-card">
+        <div class="num">4</div>
+        <strong>Organize contas e cartão</strong>
+        <p>Coloque ordem nos boletos, faturas e datas de vencimento.</p>
+      </div>
+      <div class="funciona-card">
+        <div class="num">5</div>
+        <strong>Crie um plano para dívidas</strong>
+        <p>Monte uma estratégia simples para negociar e reduzir suas dívidas.</p>
+      </div>
+      <div class="funciona-card">
+        <div class="num">6</div>
+        <strong>Monte seu plano financeiro mensal</strong>
+        <p>Finalize o desafio com um plano claro para os próximos meses.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- O QUE VOCÊ VAI RECEBER -->
+<section class="modulos">
+  <div class="container">
+    <h2 class="section-title">O que você vai receber</h2>
+    <p class="section-sub">Um e-book direto ao ponto, sem enrolação, com 30 dias de passos práticos.</p>
+    <div class="modulo-list">
+      <div class="modulo-item">
+        <div class="icon">1</div>
+        <div><h4>Módulo 1 — Onde está seu dinheiro</h4><p>Mapeamento simples de gastos e entradas para tirar a venda dos olhos.</p></div>
+      </div>
+      <div class="modulo-item">
+        <div class="icon">2</div>
+        <div><h4>Módulo 2 — Cortando o aperto</h4><p>Como identificar gastos que pesam no orçamento sem culpa.</p></div>
+      </div>
+      <div class="modulo-item">
+        <div class="icon">3</div>
+        <div><h4>Módulo 3 — Lidando com as dívidas</h4><p>Passo a passo para organizar e negociar dívidas com menos estresse.</p></div>
+      </div>
+      <div class="modulo-item">
+        <div class="icon">4</div>
+        <div><h4>Módulo 4 — Rotina financeira</h4><p>Pequenos hábitos diários para nunca mais perder o controle do dinheiro.</p></div>
+      </div>
+      <div class="modulo-item">
+        <div class="icon">5</div>
+        <div><h4>Módulo 5 — Reserva de emergência</h4><p>Como começar a guardar, mesmo com pouco, sem sufoco.</p></div>
+      </div>
+      <div class="modulo-item">
+        <div class="icon">6</div>
+        <div><h4>Módulo 6 — Mentalidade financeira</h4><p>Mude a forma como você se relaciona com o dinheiro, de vez.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BONUS -->
+<section class="bonus">
+  <div class="container">
+    <h2 class="section-title">Bônus exclusivos</h2>
+    <p class="section-sub">Você ainda recebe, sem custo adicional:</p>
+    <div class="bonus-grid">
+      <div class="bonus-card">
+        <span class="tagbonus">BÔNUS 1</span>
+        <h4>Checklist de Economia</h4>
+        <p>Lista prática com ações rápidas para economizar ainda essa semana.</p>
+      </div>
+      <div class="bonus-card">
+        <span class="tagbonus">BÔNUS 2</span>
+        <h4>Desafio dos 30 Dias</h4>
+        <p>Acompanhamento diário para você seguir o método sem perder o ritmo.</p>
+      </div>
+      <div class="bonus-card">
+        <span class="tagbonus">BÔNUS 3</span>
+        <h4>Modelo de Controle de Gastos</h4>
+        <p>Planilha simples e pronta para preencher, sem complicação.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARA QUEM É / NÃO É -->
+<section class="quem">
+  <div class="container">
+    <h2 class="section-title">Esse desafio é para você?</h2>
+    <div class="quem-grid">
+      <div class="quem-card sim">
+        <h3>✅ Esse desafio é para quem:</h3>
+        <ul>
+          <li>✔️ Sente que o dinheiro nunca sobra no fim do mês</li>
+          <li>✔️ Quer organizar as finanças mas não sabe por onde começar</li>
+          <li>✔️ Está endividado e quer sair dessa situação com clareza</li>
+          <li>✔️ Procura um método simples, prático e sem complicação</li>
+          <li>✔️ Está disposto a dedicar alguns minutos por dia ao desafio</li>
+        </ul>
+      </div>
+      <div class="quem-card nao">
+        <h3>❌ Esse desafio não é para quem:</h3>
+        <ul>
+          <li>✖️ Busca fórmula de enriquecimento rápido</li>
+          <li>✖️ Não está disposto a mudar nenhum hábito</li>
+          <li>✖️ Quer resultado sem aplicar nada na prática</li>
+          <li>✖️ Já tem total controle financeiro e não precisa de ajuda</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIS DA COMPRA -->
+<section class="depois-compra">
+  <div class="container">
+    <h2 class="section-title">O que acontece depois da compra?</h2>
+    <div class="depois-grid">
+      <div class="depois-card">
+        <div class="num">1</div>
+        <p>Você realiza o pagamento com segurança pela Cakto</p>
+      </div>
+      <div class="depois-card">
+        <div class="num">2</div>
+        <p>Recebe o acesso ao material digital</p>
+      </div>
+      <div class="depois-card">
+        <div class="num">3</div>
+        <p>Pode abrir no celular ou computador</p>
+      </div>
+      <div class="depois-card">
+        <div class="num">4</div>
+        <p>Começa o desafio no mesmo dia</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFERTA -->
+<section class="oferta">
+  <div class="container">
+    <h2 class="section-title" style="color:#fff;">Comece hoje, por um valor simbólico</h2>
+    <p class="section-sub" style="color:#cbd8ea;">Menos do que um lanche, para você organizar suas finanças pelos próximos 30 dias.</p>
+    <div class="oferta-card">
+      <div class="de">Oferta de lançamento</div>
+      <div class="por">R$ 27<span>,00</span></div>
+      <div class="parcela">Pagamento único · acesso imediato</div>
+      <ul class="oferta-list">
+        <li>📘 <span>E-book completo Desafio 30 Dias</span></li>
+        <li>🎁 <span>Checklist de Economia</span></li>
+        <li>🎁 <span>Desafio dos 30 Dias para acompanhar</span></li>
+        <li>🎁 <span>Modelo de Controle de Gastos</span></li>
+        <li>🔒 <span>Garantia de 7 dias</span></li>
+      </ul>
+      <!-- TROCAR AQUI: link do checkout principal da Cakto -->
+      <a href="#checkout-cakto" class="btn-cta">Quero começar agora
+        <small>Acesso liberado na hora, direto no seu celular</small>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- GARANTIA -->
+<section class="garantia">
+  <div class="container">
+    <div class="selo">🛡️</div>
+    <h3>Garantia de 7 dias</h3>
+    <p>Você tem 7 dias para acessar o material com calma. Se sentir que o conteúdo não é para você, basta solicitar o reembolso dentro do prazo de garantia da plataforma.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faqs">
+  <div class="container">
+    <h2 class="section-title">Perguntas frequentes</h2>
+    <div class="faq-item">
+      <div class="faq-question">Funciona mesmo para quem ganha pouco? <span class="plus">+</span></div>
+      <div class="faq-answer"><p>Sim. O método foi criado justamente para quem tem renda baixa e sente o dinheiro escapando rápido. O foco é organização, não quantidade de renda.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Preciso saber de finanças para entender? <span class="plus">+</span></div>
+      <div class="faq-answer"><p>Não. A linguagem é simples, direta e pensada para quem nunca estudou nada sobre dinheiro.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Como recebo o e-book? <span class="plus">+</span></div>
+      <div class="faq-answer"><p>Após a confirmação do pagamento, você recebe o acesso imediato direto no seu e-mail ou celular.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">E se eu não gostar? <span class="plus">+</span></div>
+      <div class="faq-answer"><p>Você tem 7 dias de garantia. Se não for para você, pode solicitar o reembolso dentro do prazo de garantia da plataforma.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Isso vai me fazer ficar rico? <span class="plus">+</span></div>
+      <div class="faq-answer"><p>Não prometemos enriquecimento. A proposta é clareza, organização e controle sobre o seu dinheiro em 30 dias.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+  <div class="container">
+    <h2>Sua organização financeira pode começar hoje</h2>
+    <p>30 dias para entender, organizar e finalmente sentir no controle do seu dinheiro.</p>
+    <div class="cta-wrap">
+      <!-- TROCAR AQUI: link do checkout principal da Cakto -->
+      <a href="#checkout-cakto" class="btn-cta">Quero sair do aperto por R$ 27,00</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>Desafio 30 Dias para Sair do Aperto © 2026. Todos os direitos reservados.</p>
+    <p>Este produto não garante resultados financeiros específicos. Os resultados dependem do esforço individual de cada pessoa.</p>
+    <p>Este material possui finalidade educativa e não substitui orientação de um profissional financeiro.</p>
+  </div>
+</footer>
+
+<div class="fixed-bar" id="fixedBar">
+  <!-- TROCAR AQUI: link do checkout principal da Cakto -->
+  <a href="#checkout-cakto" class="btn-cta">Quero sair do aperto — R$ 27,00</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
